@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
 	//sort(graph_dataset.begin(), graph_dataset.end(), graphComp);
 
 	double simScore; // similarity score
-	vector<int> array_info(6,100);
+	vector<int> array_info(6,200);
 	double common = 0;
 
 	VEO veo_sim = VEO(50);
